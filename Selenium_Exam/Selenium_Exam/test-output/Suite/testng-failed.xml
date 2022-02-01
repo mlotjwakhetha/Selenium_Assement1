@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.ilab.selenium_Assessment.Delete">
+        <methods>
+          <include name="delete"/>
+        </methods>
+      </class> <!-- com.ilab.selenium_Assessment.Delete -->
+      <class name="com.ilab.selenium_Assessment.Add_button">
+        <methods>
+          <include name="saveSystemUsers"/>
+          <include name="add_button"/>
+          <include name="AddUserH1"/>
+        </methods>
+      </class> <!-- com.ilab.selenium_Assessment.Add_button -->
+      <class name="com.ilab.selenium_Assessment.Add_User">
+        <methods>
+          <include name="VerifyStatusDropdown"/>
+          <include name="add_user"/>
+        </methods>
+      </class> <!-- com.ilab.selenium_Assessment.Add_User -->
+      <class name="com.ilab.selenium_Assessment.Search_section">
+        <methods>
+          <include name="validateEmployeeName"/>
+          <include name="validateUsername"/>
+          <include name="validateStatus"/>
+          <include name="search"/>
+        </methods>
+      </class> <!-- com.ilab.selenium_Assessment.Search_section -->
+      <class name="com.ilab.selenium_Assessment.LogOut">
+        <methods>
+          <include name="validateTitle"/>
+          <include name="logout"/>
+          <include name="validateUserLogin"/>
+        </methods>
+      </class> <!-- com.ilab.selenium_Assessment.LogOut -->
+      <class name="com.ilab.selenium_Assessment.Admin_tab">
+        <methods>
+          <include name="Delete"/>
+          <include name="Add"/>
+          <include name="Search"/>
+          <include name="admintab"/>
+          <include name="Reset"/>
+          <include name="viewSystemUsers"/>
+        </methods>
+      </class> <!-- com.ilab.selenium_Assessment.Admin_tab -->
+      <class name="com.ilab.selenium_Assessment.Login">
+        <methods>
+          <include name="validateWelcomeAdmin"/>
+          <include name="AdminTab"/>
+          <include name="dashboard"/>
+          <include name="logging_in"/>
+        </methods>
+      </class> <!-- com.ilab.selenium_Assessment.Login -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

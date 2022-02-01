@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+   	  <class name="com.ilab.selenium_Assessment.Config"/>
+      <class name="com.ilab.selenium_Assessment.Open_Application"/>
+      <class name="com.ilab.selenium_Assessment.Login"/>
+      <class name="com.ilab.selenium_Assessment.Admin_tab"/>
+      <class name="com.ilab.selenium_Assessment.Add_button"/>
+      <class name="com.ilab.selenium_Assessment.Add_User"/>
+  	  <class name="com.ilab.selenium_Assessment.Search_section"/>   
+      <class name="com.ilab.selenium_Assessment.Delete"/> 
+      <class name="com.ilab.selenium_Assessment.LogOut"/> 
+     
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
